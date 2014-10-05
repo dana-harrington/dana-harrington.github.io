@@ -1,13 +1,27 @@
 /* Custom container */
-.container-narrow {
-  margin: auto;
-  max-width: 900px; }
+
+/* Replaced with normal container and standard footer */
+/*.container-narrow {
+  margin: 0 auto;
+  max-width: 700px; }
 
 .container-narrow > hr {
   margin: 30px 0; }
+*/
 
-.navbar .nav {
-  float: right; }
+/* Replaced with standard BS3 Navbar */
+/*.navbar .nav {
+  float: right; }*/
+
+/* Jekyll Bootstrap Colors */
+/* h1, h2, h3, h4 {
+  color: #f22430;
+} */
+#footer {
+  background-color: #fdcd60;
+}
+
+
 
 /* posts index */
 .post > h3.title {
@@ -64,6 +78,7 @@
   border: 1px solid #4c964d;
   color: #FFF; }
 
+
 ul.posts {
   list-style-type: none;
   text-indent: -1em;
@@ -77,14 +92,19 @@ ul.posts {
 
 body {
   background-color: rgb(220,210,170);
-font-family: Palatino;
+  font-family: Palatino;
 }
 
-.navbar-inner {
+.navbar {
   background-image: linear-gradient(to bottom, rgb(255,255,255), rgb(220,210,170)) !important;
 }
 
 .content {
   background-color: rgb(240,230,200);
   padding: 1em;
+}
+
+.logo {
+  width: auto;
+  max-height: 8em;
 }
