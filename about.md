@@ -4,4 +4,8 @@ title: About Me
 header: About Me
 group: navigation
 ---
-Dana Harrington is the lead Scala developer at Nurun Toronto. He has been involved in functional programming for over fifteen years.
+Dana Harrington is currently working at Nurun [http://www.nurun.com]. He has been at Nurun for approximately a year and a half as a Scala developer, Scala team lead, and currently as technical lead for large e-Commerce project involving on Scala, Play Framework, Akka.
+
+Dana has been involved in functional programming (including Scala, F# and Haskell) for over fifteen years. 
+
+He currently lives in Toronto with his wife, Alexandra and dog, Murray. He likes coffee, music, IPAs, category theory and type safety.

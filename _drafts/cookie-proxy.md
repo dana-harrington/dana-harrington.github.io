@@ -135,10 +135,7 @@ The API we are aiming to have would provide us with methods like:
     def post(url: String)(body: String): WebCall[String]
     
 
+## Putting It Together
 
-
- 
-
-
-
+At this point we have all the 
 

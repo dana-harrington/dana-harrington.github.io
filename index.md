@@ -6,7 +6,9 @@ tagline: Scala, Play Framework, Akka and functional programming in the e-Commerc
 {% include JB/setup %}
 <h2>Articles on applied functional programming</h2>
 
-These article are intended to show the practical utility of monads and other functional ideas in solving real world issues. The topics covered have been motivated by issues that I've encountered in my professional experience as a software developer. No theoretical knowledge is required.
+These articles are intended to demonstrate the application of monads and other functional ideas to solve real world issues that arise in mainstream software development. 
+My hope is to demonstrate to working programmers how ideas from functional programming can be applied to solve real problems, while achieving clean, testable and maintainable code. My target audience is working developers who have a basic familiarity with Scala, and who have an interest in functional programming. If you appreciate the concise expressiveness of Scala, but don't really 'get' monads, this is the place for you.
+
 
 <ul class="posts">
   {% for post in site.posts %}
