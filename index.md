@@ -13,7 +13,9 @@ My hope is to demonstrate to working programmers how ideas from functional progr
 <ul class="posts">
   {% for post in site.posts %}
     <li> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-	(<span>{{ post.date | date_to_string }}</span>)
+	{% if post.github != null %}
+	[<a href="http://github.com/dana-harrington/{{ post.github }}/"> code on github </a>]
+	{% endif %}
 	<div class="post_excerpt">{{ post.excerpt }}</div>
     </li>
   {% endfor %}

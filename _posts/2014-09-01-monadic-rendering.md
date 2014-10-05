@@ -2,6 +2,7 @@
 layout: post
 title: "Creating a Monadic Rendering Pipeline"
 description: ""
+github: "Validated"
 category: monads
 tags: [monads]
 ---

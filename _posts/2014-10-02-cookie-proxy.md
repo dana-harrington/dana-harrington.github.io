@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Proxying Web Services"
+github: "CookieMonad"
 description: ""
 category: monads
 tags: [monads, web services]
